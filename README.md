@@ -1,6 +1,6 @@
 Vowel Checker
 =======
-The vowel checker is a web app that allows the user to enter a list of words. T$
+The vowel checker is a web app that allows the user to enter a list of words.
 ## Installation ##
 To install Vowel Checker run:
 ```$ git clone  https://github.com/mathewkeene22/vowel_check.git```
