@@ -3,7 +3,7 @@ class String
     left_over = []
     vowels = ["a", "e", "i", "o", "u"]
 
-    letter = self.downcase().split("")
+    letter = self.downcase().split(//)
     letter.each() do |char|
 
       if char.include?("a")
@@ -14,11 +14,11 @@ class String
         vowels.delete("i")
       elsif char.include?("o")
       vowels.delete("o")
-      else char.include?("u")
+      elsif char.include?("u")
         vowels.delete("u")
       end
     end
-    left_over.push(vowels)
+    left_over.push(vowels).join(", ")
   end
 end
 
