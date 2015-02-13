@@ -10,4 +10,5 @@ end
 post('/') do
   @word = params.fetch("word")
   @missing_vowels = @word.vowel()
+  erb(:index)
 end
