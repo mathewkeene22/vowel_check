@@ -21,22 +21,3 @@ class String
     left_over.push(vowels).join(", ")
   end
 end
-
-
-# class String
-#   define_method(:vowel) do
-#     left_over = []
-#     vowels = ["a", "e", "i", "o", "u"]
-#     new_string = self.downcase().split(//)
-#     vowels.each() do |vowel|
-#       new_string.each do |letter|
-#         if vowel.==(letter)
-#           vowels.shift()
-#         else vowels.push()
-#         end
-#       end
-#     end
-#     vowels
-#   end
-# end
-#
